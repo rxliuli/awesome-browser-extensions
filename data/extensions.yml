@@ -163,6 +163,17 @@
         chrome: https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone
         firefox: https://addons.mozilla.org/firefox/addon/sponsorblock/
         edge: https://microsoftedge.microsoft.com/addons/detail/sponsorblock-for-youtube/hkbdddpiemdeibjoknnofjnhjfkdbpbc
+    - name: Enhancer for YouTube
+      homepage: https://www.mrfdev.com/enhancer-for-youtube
+      description: >-
+        Fine-grained control over the YouTube player — playback speed and
+        volume steps, cinema mode, forced quality, themes and dozens of other
+        tweaks. Closed source, but a long-standing one-developer project with
+        a solid track record.
+      stores:
+        chrome: https://chromewebstore.google.com/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle
+        firefox: https://addons.mozilla.org/firefox/addon/enhancer-for-youtube/
+        edge: https://microsoftedge.microsoft.com/addons/detail/enhancer-for-youtube%E2%84%A2/dlgfaleeejmphhnemjgiaekdbonkagkd
 
 - category: Developer Tools
   extensions:

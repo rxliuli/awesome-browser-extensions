@@ -14,7 +14,7 @@ actually available — Chrome · Firefox · Safari · Edge. A `Source` link mean
 the extension is open source; entries without one are closed source, noted in
 the description.
 
-Currently listing **16** extensions.
+Currently listing **17** extensions.
 
 ## Contents
 
@@ -53,6 +53,7 @@ Currently listing **16** extensions.
 ## Media
 
 - [SponsorBlock](https://sponsor.ajay.app/) - Skips sponsor segments, intros and self-promotion in YouTube videos, powered by crowdsourced timestamps.<br>[Chrome](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone) · [Firefox](https://addons.mozilla.org/firefox/addon/sponsorblock/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/sponsorblock-for-youtube/hkbdddpiemdeibjoknnofjnhjfkdbpbc) · [Source](https://github.com/ajayyy/SponsorBlock)
+- [Enhancer for YouTube](https://www.mrfdev.com/enhancer-for-youtube) - Fine-grained control over the YouTube player — playback speed and volume steps, cinema mode, forced quality, themes and dozens of other tweaks. Closed source, but a long-standing one-developer project with a solid track record.<br>[Chrome](https://chromewebstore.google.com/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) · [Firefox](https://addons.mozilla.org/firefox/addon/enhancer-for-youtube/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/enhancer-for-youtube%E2%84%A2/dlgfaleeejmphhnemjgiaekdbonkagkd)
 
 ## Developer Tools
 
