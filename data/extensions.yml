@@ -15,11 +15,13 @@
       homepage: https://github.com/uBlockOrigin/uBOL-home
       description: >-
         Permission-less, MV3-native content blocker from the author of uBlock
-        Origin. The recommended way to block ads on Chrome and Edge since
-        Manifest V3 retired the full version there.
+        Origin. The recommended way to block ads everywhere the full uBlock
+        Origin can't run — Chrome and Edge after the Manifest V2 shutdown,
+        and Safari.
       source: https://github.com/uBlockOrigin/uBOL-home
       stores:
         chrome: https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh
+        safari: https://apps.apple.com/us/app/ublock-origin-lite/id6745342698
         edge: https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn
     - name: uBlock Origin
       homepage: https://github.com/gorhill/uBlock
@@ -52,6 +54,7 @@
         chrome: https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe
         firefox: https://addons.mozilla.org/firefox/addon/ublacklist/
         safari: https://apps.apple.com/app/ublacklist-for-safari/id1547912640
+        edge: https://microsoftedge.microsoft.com/addons/detail/ublacklist/feedneoaheedjlhokipclogaoejelcbb
 
 - category: Passwords & Security
   extensions:
