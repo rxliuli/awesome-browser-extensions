@@ -14,7 +14,7 @@ actually available — Chrome · Firefox · Safari · Edge. A `Source` link mean
 the extension is open source; entries without one are closed source, noted in
 the description.
 
-Currently listing **17** extensions.
+Currently listing **18** extensions.
 
 ## Contents
 
@@ -49,6 +49,7 @@ Currently listing **17** extensions.
 ## Productivity
 
 - [SingleFile](https://github.com/gildas-lormeau/SingleFile) - Saves a complete web page — styles, images, fonts — into a single self-contained HTML file. The best answer to "this page might not exist next year."<br>[Chrome](https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle) · [Firefox](https://addons.mozilla.org/firefox/addon/single-file/) · [Safari](https://apps.apple.com/app/singlefile-for-safari/id6444322545) · [Edge](https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno) · [Source](https://github.com/gildas-lormeau/SingleFile)
+- [Redirector](https://store.rxliuli.com/extensions/redirector/) - Automatically rewrites URLs that match your rules, sending links to their canonical, mirrored or preferred destinations before the page loads. Actively maintained, and one of the few redirect extensions available on all four major browsers including Safari.<br>[Chrome](https://chromewebstore.google.com/detail/redirector/lioaeidejmlpffbndjhaameocfldlhin) · [Firefox](https://addons.mozilla.org/firefox/addon/redirector-url/) · [Safari](https://apps.apple.com/app/url-redirector/id6743197230) · [Edge](https://microsoftedge.microsoft.com/addons/detail/redirector/jhdjcofnjfeljeekjklhgfmfocfgibmm) · [Source](https://github.com/rxliuli/redirector)
 
 ## Media
 
