@@ -1,0 +1,231 @@
+# Data source for README.md — edit this file, then run `pnpm build`.
+#
+# Schema per extension:
+#   name:        display name (required)
+#   homepage:    official site; the entry name links here (falls back to source, then first store)
+#   description: one or two sentences; include a current-status note when the obvious
+#                choice has changed (acquisitions, MV3 casualties, closed-source caveats)
+#   source:      public source repository — its presence marks the entry as open source
+#   stores:      per-browser install links; omit a browser if the extension isn't available there
+#     chrome / firefox / safari / edge
+
+- category: Ad Blocking & Privacy
+  extensions:
+    - name: uBlock Origin Lite
+      homepage: https://github.com/uBlockOrigin/uBOL-home
+      description: >-
+        Permission-less, MV3-native content blocker from the author of uBlock
+        Origin. The recommended way to block ads on Chrome and Edge since
+        Manifest V3 retired the full version there.
+      source: https://github.com/uBlockOrigin/uBOL-home
+      stores:
+        chrome: https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh
+        edge: https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn
+    - name: uBlock Origin
+      homepage: https://github.com/gorhill/uBlock
+      description: >-
+        The gold-standard wide-spectrum content blocker. No longer works on
+        Chrome after the Manifest V2 shutdown — use uBlock Origin Lite there;
+        on Firefox it still runs at full power.
+      source: https://github.com/gorhill/uBlock
+      stores:
+        firefox: https://addons.mozilla.org/firefox/addon/ublock-origin/
+    - name: Privacy Badger
+      homepage: https://privacybadger.org/
+      description: >-
+        Tracker blocker from the EFF that learns to block invisible trackers
+        as you browse. A trustworthy complement to an ad blocker rather than a
+        replacement for one.
+      source: https://github.com/EFForg/privacybadger
+      stores:
+        chrome: https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp
+        firefox: https://addons.mozilla.org/firefox/addon/privacy-badger17/
+        edge: https://microsoftedge.microsoft.com/addons/detail/privacy-badger/mkejgcgkdlddbggjhhflekkondicpnop
+    - name: ClearURLs
+      description: >-
+        Strips tracking parameters (utm_*, fbclid and friends) from URLs
+        automatically before you share or follow them.
+      source: https://github.com/ClearURLs/Addon
+      stores:
+        chrome: https://chromewebstore.google.com/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk
+        firefox: https://addons.mozilla.org/firefox/addon/clearurls/
+        edge: https://microsoftedge.microsoft.com/addons/detail/clearurls/mdkdmaickkfdekbjdoojfalpbkgaddei
+
+- category: Passwords & Security
+  extensions:
+    - name: Bitwarden
+      homepage: https://bitwarden.com/
+      description: >-
+        Open-source password manager with a solid free tier and clients on
+        every platform. The default recommendation since the LastPass
+        breaches made "closed source + your vault" a hard sell.
+      source: https://github.com/bitwarden/clients
+      stores:
+        chrome: https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb
+        firefox: https://addons.mozilla.org/firefox/addon/bitwarden-password-manager/
+        safari: https://apps.apple.com/app/bitwarden/id1352778147
+        edge: https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh
+    - name: KeePassXC-Browser
+      homepage: https://keepassxc.org/
+      description: >-
+        Companion extension for the KeePassXC desktop app. The right choice if
+        you want your password database as a local file instead of in anyone's
+        cloud.
+      source: https://github.com/keepassxreboot/keepassxc-browser
+      stores:
+        chrome: https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk
+        firefox: https://addons.mozilla.org/firefox/addon/keepassxc-browser/
+        edge: https://microsoftedge.microsoft.com/addons/detail/keepassxcbrowser/pdffhmdngciaglkoonimfcmckehcpafo
+
+- category: Customization
+  extensions:
+    - name: Dark Reader
+      homepage: https://darkreader.org/
+      description: >-
+        Generates a dark theme for every website, with per-site brightness,
+        contrast and sepia tuning. Free on Chrome, Firefox and Edge; a paid
+        app on Safari.
+      source: https://github.com/darkreader/darkreader
+      stores:
+        chrome: https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh
+        firefox: https://addons.mozilla.org/firefox/addon/darkreader/
+        safari: https://apps.apple.com/app/dark-reader-for-safari/id1438243180
+        edge: https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc
+    - name: Stylus
+      description: >-
+        Apply custom CSS to any website, with an editor and access to the
+        UserStyles community. The trustworthy successor to Stylish, which was
+        caught collecting browsing history after an acquisition.
+      source: https://github.com/openstyles/stylus
+      stores:
+        chrome: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+        firefox: https://addons.mozilla.org/firefox/addon/styl-us/
+    - name: Violentmonkey
+      homepage: https://violentmonkey.github.io/
+      description: >-
+        Userscript manager for running community scripts from Greasy Fork and
+        friends. Fully open source, which is why it edges out the more famous
+        but closed-source Tampermonkey as the default pick.
+      source: https://github.com/violentmonkey/violentmonkey
+      stores:
+        chrome: https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
+        firefox: https://addons.mozilla.org/firefox/addon/violentmonkey/
+        edge: https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao
+    - name: Tampermonkey
+      homepage: https://www.tampermonkey.net/
+      description: >-
+        The most widely used userscript manager, with the broadest browser
+        coverage including Safari. Mature and reliable, but closed source —
+        prefer Violentmonkey if that matters to you.
+      stores:
+        chrome: https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+        firefox: https://addons.mozilla.org/firefox/addon/tampermonkey/
+        safari: https://apps.apple.com/app/tampermonkey/id1482490089
+        edge: https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd
+
+- category: Productivity
+  extensions:
+    - name: Immersive Translate
+      homepage: https://immersivetranslate.com/
+      description: >-
+        Bilingual side-by-side translation for pages, PDFs, subtitles and
+        EPUBs, with pluggable translation engines. Closed source; the free
+        tier covers everyday use.
+      stores:
+        chrome: https://chromewebstore.google.com/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh
+        firefox: https://addons.mozilla.org/firefox/addon/immersive-translate/
+        edge: https://microsoftedge.microsoft.com/addons/detail/immersive-translate/amkbmndfnliijdhojkpoglbnaaahippg
+    - name: SingleFile
+      description: >-
+        Saves a complete web page — styles, images, fonts — into a single
+        self-contained HTML file. The best answer to "this page might not
+        exist next year."
+      source: https://github.com/gildas-lormeau/SingleFile
+      stores:
+        chrome: https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle
+        firefox: https://addons.mozilla.org/firefox/addon/single-file/
+        safari: https://apps.apple.com/app/singlefile-for-safari/id6444322545
+        edge: https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno
+    - name: OneTab
+      homepage: https://www.one-tab.com/
+      description: >-
+        Collapses all open tabs into a restorable list with one click. Closed
+        source and barely changed in a decade, but it does one thing and still
+        does it well.
+      stores:
+        chrome: https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall
+        firefox: https://addons.mozilla.org/firefox/addon/onetab/
+        edge: https://microsoftedge.microsoft.com/addons/detail/onetab/hoimpamkkoehapgenciaoajfkfkpgfop
+
+- category: Media
+  extensions:
+    - name: SponsorBlock
+      homepage: https://sponsor.ajay.app/
+      description: >-
+        Skips sponsor segments, intros and self-promotion in YouTube videos,
+        powered by crowdsourced timestamps.
+      source: https://github.com/ajayyy/SponsorBlock
+      stores:
+        chrome: https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone
+        firefox: https://addons.mozilla.org/firefox/addon/sponsorblock/
+        edge: https://microsoftedge.microsoft.com/addons/detail/sponsorblock-for-youtube/hkbdddpiemdeibjoknnofjnhjfkdbpbc
+    - name: Return YouTube Dislike
+      homepage: https://returnyoutubedislike.com/
+      description: >-
+        Restores the dislike count on YouTube videos using archived data and
+        crowdsourced extension votes.
+      source: https://github.com/Anarios/return-youtube-dislike
+      stores:
+        chrome: https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi
+        firefox: https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/
+        edge: https://microsoftedge.microsoft.com/addons/detail/return-youtube-dislike/kbfmmghcopgpdmmoaenobopkeekimeoc
+
+- category: Developer Tools
+  extensions:
+    - name: React Developer Tools
+      homepage: https://react.dev/learn/react-developer-tools
+      description: >-
+        Official React DevTools panel for inspecting component trees, props,
+        state and render performance.
+      source: https://github.com/facebook/react/tree/main/packages/react-devtools-extensions
+      stores:
+        chrome: https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+        firefox: https://addons.mozilla.org/firefox/addon/react-devtools/
+        edge: https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil
+    - name: Vue.js devtools
+      homepage: https://devtools.vuejs.org/
+      description: >-
+        Official Vue DevTools panel for inspecting components, Pinia stores,
+        router state and timeline events.
+      source: https://github.com/vuejs/devtools
+      stores:
+        chrome: https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+        firefox: https://addons.mozilla.org/firefox/addon/vue-js-devtools/
+        edge: https://microsoftedge.microsoft.com/addons/detail/vuejs-devtools/olofadcdnkkjdfgjcmjaadnlehnnihnl
+    - name: JSON Formatter
+      description: >-
+        Pretty-prints raw JSON responses with syntax highlighting and
+        collapsible trees. Tiny, stable and permission-light.
+      source: https://github.com/callumlocke/json-formatter
+      stores:
+        chrome: https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
+    - name: Refined GitHub
+      description: >-
+        Dozens of small quality-of-life improvements to the GitHub UI, from
+        whitespace toggles to smarter default views. Absorbed most of what the
+        old single-purpose GitHub extensions used to do.
+      source: https://github.com/refined-github/refined-github
+      stores:
+        chrome: https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf
+        firefox: https://addons.mozilla.org/firefox/addon/refined-github-/
+        safari: https://apps.apple.com/app/refined-github/id1519867270
+    - name: ZeroOmega
+      description: >-
+        Per-rule proxy switching with pattern lists. Actively maintained fork
+        that carries on Proxy SwitchyOmega, whose original author stopped
+        updating it years ago.
+      source: https://github.com/zero-peak/ZeroOmega
+      stores:
+        chrome: https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
+        firefox: https://addons.mozilla.org/firefox/addon/zeroomega/
+        edge: https://microsoftedge.microsoft.com/addons/detail/proxy-switchyomega-3-zer/dmaldhchmoafliphkijbfhaomcgglmgd
