@@ -4,6 +4,7 @@ import { parse } from 'yaml'
 
 const root = new URL('..', import.meta.url)
 const data = parse(await readFile(new URL('data/extensions.yml', root), 'utf8'))
+const removed = parse(await readFile(new URL('data/removed.yml', root), 'utf8'))
 
 const STORES = [
   ['chrome', 'Chrome'],
@@ -33,8 +34,8 @@ const renderExtension = (ext) => {
   return `- [${ext.name}](${primary}) - ${description}<br>${links.join(' · ')}`
 }
 
-const toc = data
-  .map((c) => `- [${c.category}](#${slugify(c.category)})`)
+const toc = [...data.map((c) => c.category), 'Removed']
+  .map((title) => `- [${title}](#${slugify(title)})`)
   .join('\n')
 
 const sections = data
@@ -45,6 +46,13 @@ const sections = data
   .join('\n\n')
 
 const count = data.reduce((n, c) => n + c.extensions.length, 0)
+
+const graveyard = removed
+  .map(
+    (r) =>
+      `- **${r.name}** *(removed ${r.removed})* - ${r.reason.trim().replace(/\s+/g, ' ')}`,
+  )
+  .join('\n')
 
 const readme = `<!-- Generated from data/extensions.yml by scripts/build.mjs — do not edit by hand. -->
 
@@ -69,6 +77,14 @@ Currently listing **${count}** extensions.
 ${toc}
 
 ${sections}
+
+## Removed
+
+Extensions that used to be on this list, and why they left. Curation means
+re-checking, not just adding — an entry that stops clearing the bar moves
+here with its reason on record.
+
+${graveyard}
 
 ## Contributing
 

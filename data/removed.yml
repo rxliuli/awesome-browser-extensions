@@ -1,0 +1,39 @@
+# Extensions that were on the list and no longer are. Every removal keeps its
+# reason on record — curation means re-checking, not just adding.
+#
+# Schema: name, removed (YYYY-MM), reason. No links: graveyard entries are
+# deliberately not link-checked or endorsed.
+
+- name: JSON Formatter
+  removed: 2026-08
+  reason: >-
+    The author is moving to a closed-source commercial successor and the
+    open-source extension is no longer maintained.
+- name: Immersive Translate
+  removed: 2026-08
+  reason: >-
+    Closed source with a pattern of user-hostile product decisions — most
+    recently shipping a release that dropped bring-your-own-key API support,
+    reversed within hours only after user backlash.
+- name: ClearURLs
+  removed: 2026-08
+  reason: >-
+    Largely superseded — uBlock Origin's removeparam filters and browsers'
+    built-in tracking-parameter stripping now cover most of what it did, and
+    its own maintenance has been intermittent.
+- name: OneTab
+  removed: 2026-08
+  reason: >-
+    Closed source and essentially unchanged for a decade; still works, but no
+    longer clears the bar for an active recommendation.
+- name: Return YouTube Dislike
+  removed: 2026-08
+  reason: >-
+    The displayed counts are estimates extrapolated from aging archived data
+    and votes from extension users, and their accuracy keeps degrading.
+- name: ZeroOmega
+  removed: 2026-08
+  reason: >-
+    Browser-level proxy switching has largely been superseded by system-level
+    proxy tools; still solid in its niche, but no longer broadly
+    recommendable.

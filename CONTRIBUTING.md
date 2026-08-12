@@ -37,3 +37,8 @@ This list is deliberately small. An extension should be:
 If a listed extension has been sold, abandoned, or turned hostile, a PR
 removing it (or replacing it with its successor, plus a note) is at least as
 valuable as a PR adding something new.
+
+Don't just delete the entry: move it to
+[`data/removed.yml`](data/removed.yml) with a dated reason. Removals render
+as the README's "Removed" section — the public record that this list is
+re-checked, not just appended to.

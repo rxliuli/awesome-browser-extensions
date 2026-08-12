@@ -41,15 +41,6 @@
         chrome: https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp
         firefox: https://addons.mozilla.org/firefox/addon/privacy-badger17/
         edge: https://microsoftedge.microsoft.com/addons/detail/privacy-badger/mkejgcgkdlddbggjhhflekkondicpnop
-    - name: ClearURLs
-      description: >-
-        Strips tracking parameters (utm_*, fbclid and friends) from URLs
-        automatically before you share or follow them.
-      source: https://github.com/ClearURLs/Addon
-      stores:
-        chrome: https://chromewebstore.google.com/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk
-        firefox: https://addons.mozilla.org/firefox/addon/clearurls/
-        edge: https://microsoftedge.microsoft.com/addons/detail/clearurls/mdkdmaickkfdekbjdoojfalpbkgaddei
     - name: uBlacklist
       homepage: https://ublacklist.github.io/
       description: >-
@@ -148,16 +139,6 @@
 
 - category: Productivity
   extensions:
-    - name: Immersive Translate
-      homepage: https://immersivetranslate.com/
-      description: >-
-        Bilingual side-by-side translation for pages, PDFs, subtitles and
-        EPUBs, with pluggable translation engines. Closed source; the free
-        tier covers everyday use.
-      stores:
-        chrome: https://chromewebstore.google.com/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh
-        firefox: https://addons.mozilla.org/firefox/addon/immersive-translate/
-        edge: https://microsoftedge.microsoft.com/addons/detail/immersive-translate/amkbmndfnliijdhojkpoglbnaaahippg
     - name: SingleFile
       description: >-
         Saves a complete web page — styles, images, fonts — into a single
@@ -169,16 +150,6 @@
         firefox: https://addons.mozilla.org/firefox/addon/single-file/
         safari: https://apps.apple.com/app/singlefile-for-safari/id6444322545
         edge: https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno
-    - name: OneTab
-      homepage: https://www.one-tab.com/
-      description: >-
-        Collapses all open tabs into a restorable list with one click. Closed
-        source and barely changed in a decade, but it does one thing and still
-        does it well.
-      stores:
-        chrome: https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall
-        firefox: https://addons.mozilla.org/firefox/addon/onetab/
-        edge: https://microsoftedge.microsoft.com/addons/detail/onetab/hoimpamkkoehapgenciaoajfkfkpgfop
 
 - category: Media
   extensions:
@@ -192,16 +163,6 @@
         chrome: https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone
         firefox: https://addons.mozilla.org/firefox/addon/sponsorblock/
         edge: https://microsoftedge.microsoft.com/addons/detail/sponsorblock-for-youtube/hkbdddpiemdeibjoknnofjnhjfkdbpbc
-    - name: Return YouTube Dislike
-      homepage: https://returnyoutubedislike.com/
-      description: >-
-        Restores the dislike count on YouTube videos using archived data and
-        crowdsourced extension votes.
-      source: https://github.com/Anarios/return-youtube-dislike
-      stores:
-        chrome: https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi
-        firefox: https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/
-        edge: https://microsoftedge.microsoft.com/addons/detail/return-youtube-dislike/kbfmmghcopgpdmmoaenobopkeekimeoc
 
 - category: Developer Tools
   extensions:
@@ -225,13 +186,6 @@
         chrome: https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
         firefox: https://addons.mozilla.org/firefox/addon/vue-js-devtools/
         edge: https://microsoftedge.microsoft.com/addons/detail/vuejs-devtools/olofadcdnkkjdfgjcmjaadnlehnnihnl
-    - name: JSON Formatter
-      description: >-
-        Pretty-prints raw JSON responses with syntax highlighting and
-        collapsible trees. Tiny, stable and permission-light.
-      source: https://github.com/callumlocke/json-formatter
-      stores:
-        chrome: https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
     - name: Refined GitHub
       description: >-
         Dozens of small quality-of-life improvements to the GitHub UI, from
@@ -242,13 +196,3 @@
         chrome: https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf
         firefox: https://addons.mozilla.org/firefox/addon/refined-github-/
         safari: https://apps.apple.com/app/refined-github/id1519867270
-    - name: ZeroOmega
-      description: >-
-        Per-rule proxy switching with pattern lists. Actively maintained fork
-        that carries on Proxy SwitchyOmega, whose original author stopped
-        updating it years ago.
-      source: https://github.com/zero-peak/ZeroOmega
-      stores:
-        chrome: https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped
-        firefox: https://addons.mozilla.org/firefox/addon/zeroomega/
-        edge: https://microsoftedge.microsoft.com/addons/detail/proxy-switchyomega-3-zer/dmaldhchmoafliphkijbfhaomcgglmgd

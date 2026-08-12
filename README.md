@@ -14,7 +14,7 @@ actually available — Chrome · Firefox · Safari · Edge. A `Source` link mean
 the extension is open source; entries without one are closed source, noted in
 the description.
 
-Currently listing **22** extensions.
+Currently listing **16** extensions.
 
 ## Contents
 
@@ -24,13 +24,13 @@ Currently listing **22** extensions.
 - [Productivity](#productivity)
 - [Media](#media)
 - [Developer Tools](#developer-tools)
+- [Removed](#removed)
 
 ## Ad Blocking & Privacy
 
 - [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home) - Permission-less, MV3-native content blocker from the author of uBlock Origin. The recommended way to block ads on Chrome and Edge since Manifest V3 retired the full version there.<br>[Chrome](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh) · [Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin-lite/cimighlppcgcoapaliogpjjdehbnofhn) · [Source](https://github.com/uBlockOrigin/uBOL-home)
 - [uBlock Origin](https://github.com/gorhill/uBlock) - The gold-standard wide-spectrum content blocker. No longer works on Chrome after the Manifest V2 shutdown — use uBlock Origin Lite there; on Firefox it still runs at full power.<br>[Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/) · [Source](https://github.com/gorhill/uBlock)
 - [Privacy Badger](https://privacybadger.org/) - Tracker blocker from the EFF that learns to block invisible trackers as you browse. A trustworthy complement to an ad blocker rather than a replacement for one.<br>[Chrome](https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp) · [Firefox](https://addons.mozilla.org/firefox/addon/privacy-badger17/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/privacy-badger/mkejgcgkdlddbggjhhflekkondicpnop) · [Source](https://github.com/EFForg/privacybadger)
-- [ClearURLs](https://github.com/ClearURLs/Addon) - Strips tracking parameters (utm_*, fbclid and friends) from URLs automatically before you share or follow them.<br>[Chrome](https://chromewebstore.google.com/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) · [Firefox](https://addons.mozilla.org/firefox/addon/clearurls/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/clearurls/mdkdmaickkfdekbjdoojfalpbkgaddei) · [Source](https://github.com/ClearURLs/Addon)
 - [uBlacklist](https://ublacklist.github.io/) - Blocks the sites you choose from ever appearing in Google search results, with subscribable community rulesets. Increasingly essential as SEO spam and machine-generated content flood the results page.<br>[Chrome](https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe) · [Firefox](https://addons.mozilla.org/firefox/addon/ublacklist/) · [Safari](https://apps.apple.com/app/ublacklist-for-safari/id1547912640) · [Source](https://github.com/iorate/ublacklist)
 
 ## Passwords & Security
@@ -48,22 +48,30 @@ Currently listing **22** extensions.
 
 ## Productivity
 
-- [Immersive Translate](https://immersivetranslate.com/) - Bilingual side-by-side translation for pages, PDFs, subtitles and EPUBs, with pluggable translation engines. Closed source; the free tier covers everyday use.<br>[Chrome](https://chromewebstore.google.com/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh) · [Firefox](https://addons.mozilla.org/firefox/addon/immersive-translate/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/immersive-translate/amkbmndfnliijdhojkpoglbnaaahippg)
 - [SingleFile](https://github.com/gildas-lormeau/SingleFile) - Saves a complete web page — styles, images, fonts — into a single self-contained HTML file. The best answer to "this page might not exist next year."<br>[Chrome](https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle) · [Firefox](https://addons.mozilla.org/firefox/addon/single-file/) · [Safari](https://apps.apple.com/app/singlefile-for-safari/id6444322545) · [Edge](https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno) · [Source](https://github.com/gildas-lormeau/SingleFile)
-- [OneTab](https://www.one-tab.com/) - Collapses all open tabs into a restorable list with one click. Closed source and barely changed in a decade, but it does one thing and still does it well.<br>[Chrome](https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) · [Firefox](https://addons.mozilla.org/firefox/addon/onetab/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/onetab/hoimpamkkoehapgenciaoajfkfkpgfop)
 
 ## Media
 
 - [SponsorBlock](https://sponsor.ajay.app/) - Skips sponsor segments, intros and self-promotion in YouTube videos, powered by crowdsourced timestamps.<br>[Chrome](https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone) · [Firefox](https://addons.mozilla.org/firefox/addon/sponsorblock/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/sponsorblock-for-youtube/hkbdddpiemdeibjoknnofjnhjfkdbpbc) · [Source](https://github.com/ajayyy/SponsorBlock)
-- [Return YouTube Dislike](https://returnyoutubedislike.com/) - Restores the dislike count on YouTube videos using archived data and crowdsourced extension votes.<br>[Chrome](https://chromewebstore.google.com/detail/return-youtube-dislike/gebbhagfogifgggkldgodflihgfeippi) · [Firefox](https://addons.mozilla.org/firefox/addon/return-youtube-dislikes/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/return-youtube-dislike/kbfmmghcopgpdmmoaenobopkeekimeoc) · [Source](https://github.com/Anarios/return-youtube-dislike)
 
 ## Developer Tools
 
 - [React Developer Tools](https://react.dev/learn/react-developer-tools) - Official React DevTools panel for inspecting component trees, props, state and render performance.<br>[Chrome](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) · [Firefox](https://addons.mozilla.org/firefox/addon/react-devtools/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil) · [Source](https://github.com/facebook/react/tree/main/packages/react-devtools-extensions)
 - [Vue.js devtools](https://devtools.vuejs.org/) - Official Vue DevTools panel for inspecting components, Pinia stores, router state and timeline events.<br>[Chrome](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) · [Firefox](https://addons.mozilla.org/firefox/addon/vue-js-devtools/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/vuejs-devtools/olofadcdnkkjdfgjcmjaadnlehnnihnl) · [Source](https://github.com/vuejs/devtools)
-- [JSON Formatter](https://github.com/callumlocke/json-formatter) - Pretty-prints raw JSON responses with syntax highlighting and collapsible trees. Tiny, stable and permission-light.<br>[Chrome](https://chromewebstore.google.com/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) · [Source](https://github.com/callumlocke/json-formatter)
 - [Refined GitHub](https://github.com/refined-github/refined-github) - Dozens of small quality-of-life improvements to the GitHub UI, from whitespace toggles to smarter default views. Absorbed most of what the old single-purpose GitHub extensions used to do.<br>[Chrome](https://chromewebstore.google.com/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf) · [Firefox](https://addons.mozilla.org/firefox/addon/refined-github-/) · [Safari](https://apps.apple.com/app/refined-github/id1519867270) · [Source](https://github.com/refined-github/refined-github)
-- [ZeroOmega](https://github.com/zero-peak/ZeroOmega) - Per-rule proxy switching with pattern lists. Actively maintained fork that carries on Proxy SwitchyOmega, whose original author stopped updating it years ago.<br>[Chrome](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped) · [Firefox](https://addons.mozilla.org/firefox/addon/zeroomega/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/proxy-switchyomega-3-zer/dmaldhchmoafliphkijbfhaomcgglmgd) · [Source](https://github.com/zero-peak/ZeroOmega)
+
+## Removed
+
+Extensions that used to be on this list, and why they left. Curation means
+re-checking, not just adding — an entry that stops clearing the bar moves
+here with its reason on record.
+
+- **JSON Formatter** *(removed 2026-08)* - The author is moving to a closed-source commercial successor and the open-source extension is no longer maintained.
+- **Immersive Translate** *(removed 2026-08)* - Closed source with a pattern of user-hostile product decisions — most recently shipping a release that dropped bring-your-own-key API support, reversed within hours only after user backlash.
+- **ClearURLs** *(removed 2026-08)* - Largely superseded — uBlock Origin's removeparam filters and browsers' built-in tracking-parameter stripping now cover most of what it did, and its own maintenance has been intermittent.
+- **OneTab** *(removed 2026-08)* - Closed source and essentially unchanged for a decade; still works, but no longer clears the bar for an active recommendation.
+- **Return YouTube Dislike** *(removed 2026-08)* - The displayed counts are estimates extrapolated from aging archived data and votes from extension users, and their accuracy keeps degrading.
+- **ZeroOmega** *(removed 2026-08)* - Browser-level proxy switching has largely been superseded by system-level proxy tools; still solid in its niche, but no longer broadly recommendable.
 
 ## Contributing
 
