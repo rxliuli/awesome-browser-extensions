@@ -50,6 +50,17 @@
         chrome: https://chromewebstore.google.com/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk
         firefox: https://addons.mozilla.org/firefox/addon/clearurls/
         edge: https://microsoftedge.microsoft.com/addons/detail/clearurls/mdkdmaickkfdekbjdoojfalpbkgaddei
+    - name: uBlacklist
+      homepage: https://ublacklist.github.io/
+      description: >-
+        Blocks the sites you choose from ever appearing in Google search
+        results, with subscribable community rulesets. Increasingly essential
+        as SEO spam and machine-generated content flood the results page.
+      source: https://github.com/iorate/ublacklist
+      stores:
+        chrome: https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe
+        firefox: https://addons.mozilla.org/firefox/addon/ublacklist/
+        safari: https://apps.apple.com/app/ublacklist-for-safari/id1547912640
 
 - category: Passwords & Security
   extensions:
@@ -76,6 +87,18 @@
         chrome: https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk
         firefox: https://addons.mozilla.org/firefox/addon/keepassxc-browser/
         edge: https://microsoftedge.microsoft.com/addons/detail/keepassxcbrowser/pdffhmdngciaglkoonimfcmckehcpafo
+    - name: Authenticator
+      homepage: https://authenticator.cc/
+      description: >-
+        Generates two-factor authentication codes in the browser; the de facto
+        standard open-source TOTP extension. Convenient, but know the
+        trade-off — keeping codes in the same browser as your passwords
+        weakens the isolation a second factor is meant to provide.
+      source: https://github.com/Authenticator-Extension/Authenticator
+      stores:
+        chrome: https://chromewebstore.google.com/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai
+        firefox: https://addons.mozilla.org/firefox/addon/auth-helper/
+        edge: https://microsoftedge.microsoft.com/addons/detail/authenticator-2fa-client/ocglkepbibnalbgmbachknglpdipeoio
 
 - category: Customization
   extensions:

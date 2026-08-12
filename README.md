@@ -14,7 +14,7 @@ actually available — Chrome · Firefox · Safari · Edge. A `Source` link mean
 the extension is open source; entries without one are closed source, noted in
 the description.
 
-Currently listing **20** extensions.
+Currently listing **22** extensions.
 
 ## Contents
 
@@ -31,11 +31,13 @@ Currently listing **20** extensions.
 - [uBlock Origin](https://github.com/gorhill/uBlock) - The gold-standard wide-spectrum content blocker. No longer works on Chrome after the Manifest V2 shutdown — use uBlock Origin Lite there; on Firefox it still runs at full power.<br>[Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/) · [Source](https://github.com/gorhill/uBlock)
 - [Privacy Badger](https://privacybadger.org/) - Tracker blocker from the EFF that learns to block invisible trackers as you browse. A trustworthy complement to an ad blocker rather than a replacement for one.<br>[Chrome](https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp) · [Firefox](https://addons.mozilla.org/firefox/addon/privacy-badger17/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/privacy-badger/mkejgcgkdlddbggjhhflekkondicpnop) · [Source](https://github.com/EFForg/privacybadger)
 - [ClearURLs](https://github.com/ClearURLs/Addon) - Strips tracking parameters (utm_*, fbclid and friends) from URLs automatically before you share or follow them.<br>[Chrome](https://chromewebstore.google.com/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) · [Firefox](https://addons.mozilla.org/firefox/addon/clearurls/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/clearurls/mdkdmaickkfdekbjdoojfalpbkgaddei) · [Source](https://github.com/ClearURLs/Addon)
+- [uBlacklist](https://ublacklist.github.io/) - Blocks the sites you choose from ever appearing in Google search results, with subscribable community rulesets. Increasingly essential as SEO spam and machine-generated content flood the results page.<br>[Chrome](https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe) · [Firefox](https://addons.mozilla.org/firefox/addon/ublacklist/) · [Safari](https://apps.apple.com/app/ublacklist-for-safari/id1547912640) · [Source](https://github.com/iorate/ublacklist)
 
 ## Passwords & Security
 
 - [Bitwarden](https://bitwarden.com/) - Open-source password manager with a solid free tier and clients on every platform. The default recommendation since the LastPass breaches made "closed source + your vault" a hard sell.<br>[Chrome](https://chromewebstore.google.com/detail/bitwarden-password-manage/nngceckbapebfimnlniiiahkandclblb) · [Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager/) · [Safari](https://apps.apple.com/app/bitwarden/id1352778147) · [Edge](https://microsoftedge.microsoft.com/addons/detail/bitwarden-password-manage/jbkfoedolllekgbhcbcoahefnbanhhlh) · [Source](https://github.com/bitwarden/clients)
 - [KeePassXC-Browser](https://keepassxc.org/) - Companion extension for the KeePassXC desktop app. The right choice if you want your password database as a local file instead of in anyone's cloud.<br>[Chrome](https://chromewebstore.google.com/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk) · [Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/keepassxcbrowser/pdffhmdngciaglkoonimfcmckehcpafo) · [Source](https://github.com/keepassxreboot/keepassxc-browser)
+- [Authenticator](https://authenticator.cc/) - Generates two-factor authentication codes in the browser; the de facto standard open-source TOTP extension. Convenient, but know the trade-off — keeping codes in the same browser as your passwords weakens the isolation a second factor is meant to provide.<br>[Chrome](https://chromewebstore.google.com/detail/authenticator/bhghoamapcdpbohphigoooaddinpkbai) · [Firefox](https://addons.mozilla.org/firefox/addon/auth-helper/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/authenticator-2fa-client/ocglkepbibnalbgmbachknglpdipeoio) · [Source](https://github.com/Authenticator-Extension/Authenticator)
 
 ## Customization
 
