@@ -28,6 +28,11 @@ This list is deliberately small. An extension should be:
   succession.
 - **Broadly useful.** Something a stranger could adopt from a one-line
   description. Niche tools need to be the definitive tool in their niche.
+- **Respectful of attention.** Depth is welcome; mandatory complexity is not.
+  The benchmark is uBlock Origin: its rule engine is enormously deep, yet
+  most users never touch that depth because community rulesets absorb it —
+  install it and it just works. An extension that greets you with a sprawling
+  settings form before it delivers value is disqualified, however capable.
 - **Honestly linked.** Store links must point to the official listing
   published by the extension's author. No unofficial mirrors, even
   convenient ones.
