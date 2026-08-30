@@ -14,7 +14,7 @@ actually available — Chrome · Firefox · Safari · Edge. A `Source` link mean
 the extension is open source; entries without one are closed source, noted in
 the description.
 
-Currently listing **18** extensions.
+Currently listing **19** extensions.
 
 ## Contents
 
@@ -32,6 +32,7 @@ Currently listing **18** extensions.
 - [uBlock Origin](https://github.com/gorhill/uBlock) - The gold-standard wide-spectrum content blocker. No longer works on Chrome after the Manifest V2 shutdown — use uBlock Origin Lite there; on Firefox it still runs at full power.<br>[Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/) · [Source](https://github.com/gorhill/uBlock)
 - [Privacy Badger](https://privacybadger.org/) - Tracker blocker from the EFF that learns to block invisible trackers as you browse. A trustworthy complement to an ad blocker rather than a replacement for one.<br>[Chrome](https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp) · [Firefox](https://addons.mozilla.org/firefox/addon/privacy-badger17/) · [Edge](https://microsoftedge.microsoft.com/addons/detail/privacy-badger/mkejgcgkdlddbggjhhflekkondicpnop) · [Source](https://github.com/EFForg/privacybadger)
 - [uBlacklist](https://ublacklist.github.io/) - Blocks the sites you choose from ever appearing in Google search results, with subscribable community rulesets. Increasingly essential as SEO spam and machine-generated content flood the results page.<br>[Chrome](https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe) · [Firefox](https://addons.mozilla.org/firefox/addon/ublacklist/) · [Safari](https://apps.apple.com/app/ublacklist-for-safari/id1547912640) · [Edge](https://microsoftedge.microsoft.com/addons/detail/ublacklist/feedneoaheedjlhokipclogaoejelcbb) · [Source](https://github.com/iorate/ublacklist)
+- [Noctis](https://noctis.c0nn3ct.info/) - Routes the browser's traffic through a proxy server you control over VLESS, Trojan, Shadowsocks, Hysteria2, TUIC, or WireGuard, and leaves the rest of the machine on the normal connection. Closed source under a EULA, and it needs a one-time helper install before the first connection; that helper is MIT and its source is public.<br>[Chrome](https://chromewebstore.google.com/detail/noctis/nmhobajopepdpihahepaddpdifdcenpn)
 
 ## Passwords & Security
 

@@ -55,6 +55,16 @@
         firefox: https://addons.mozilla.org/firefox/addon/ublacklist/
         safari: https://apps.apple.com/app/ublacklist-for-safari/id1547912640
         edge: https://microsoftedge.microsoft.com/addons/detail/ublacklist/feedneoaheedjlhokipclogaoejelcbb
+    - name: Noctis
+      homepage: https://noctis.c0nn3ct.info/
+      description: >-
+        Routes the browser's traffic through a proxy server you control over
+        VLESS, Trojan, Shadowsocks, Hysteria2, TUIC, or WireGuard, and leaves
+        the rest of the machine on the normal connection. Closed source under
+        a EULA, and it needs a one-time helper install before the first
+        connection; that helper is MIT and its source is public.
+      stores:
+        chrome: https://chromewebstore.google.com/detail/noctis/nmhobajopepdpihahepaddpdifdcenpn
 
 - category: Passwords & Security
   extensions:
