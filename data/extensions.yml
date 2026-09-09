@@ -166,6 +166,19 @@
         firefox: https://addons.mozilla.org/firefox/addon/redirector-url/
         safari: https://apps.apple.com/app/url-redirector/id6743197230
         edge: https://microsoftedge.microsoft.com/addons/detail/redirector/jhdjcofnjfeljeekjklhgfmfocfgibmm
+    - name: Not for You
+      homepage: https://notforyou.app
+      description: >-
+        Removes the algorithm from every major social media platform. Turns
+        off the recommendation feeds on YouTube, Instagram, TikTok, X, Reddit,
+        LinkedIn, Threads and Facebook, so the platforms stop deciding what
+        you see. Where a platform still has a real chronological view it sends
+        you there, so it keeps working through redesigns; the rest is hidden.
+        Nothing to configure.
+      source: https://github.com/preziotte/not-for-you
+      stores:
+        chrome: https://chromewebstore.google.com/detail/not-for-you/pakdneaipkfgaahgbafblmdebfoadjca
+        firefox: https://addons.mozilla.org/firefox/addon/notforyou/
 
 - category: Media
   extensions:
