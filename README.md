@@ -14,7 +14,7 @@ actually available — Chrome · Firefox · Safari · Edge. A `Source` link mean
 the extension is open source; entries without one are closed source, noted in
 the description.
 
-Currently listing **18** extensions.
+Currently listing **19** extensions.
 
 ## Contents
 
@@ -50,6 +50,7 @@ Currently listing **18** extensions.
 
 - [SingleFile](https://github.com/gildas-lormeau/SingleFile) - Saves a complete web page — styles, images, fonts — into a single self-contained HTML file. The best answer to "this page might not exist next year."<br>[Chrome](https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle) · [Firefox](https://addons.mozilla.org/firefox/addon/single-file/) · [Safari](https://apps.apple.com/app/singlefile-for-safari/id6444322545) · [Edge](https://microsoftedge.microsoft.com/addons/detail/singlefile/efnbkdcfmcmnhlkaijjjmhjjgladedno) · [Source](https://github.com/gildas-lormeau/SingleFile)
 - [Redirector](https://store.rxliuli.com/extensions/redirector/) - Automatically rewrites URLs that match your rules, sending links to their canonical, mirrored or preferred destinations before the page loads. Actively maintained, and one of the few redirect extensions available on all four major browsers including Safari.<br>[Chrome](https://chromewebstore.google.com/detail/redirector/lioaeidejmlpffbndjhaameocfldlhin) · [Firefox](https://addons.mozilla.org/firefox/addon/redirector-url/) · [Safari](https://apps.apple.com/app/url-redirector/id6743197230) · [Edge](https://microsoftedge.microsoft.com/addons/detail/redirector/jhdjcofnjfeljeekjklhgfmfocfgibmm) · [Source](https://github.com/rxliuli/redirector)
+- [Not for You](https://notforyou.app) - Removes the algorithm from every major social media platform. Turns off the recommendation feeds on YouTube, Instagram, TikTok, X, Reddit, LinkedIn, Threads and Facebook, so the platforms stop deciding what you see. Where a platform still has a real chronological view it sends you there, so it keeps working through redesigns; the rest is hidden. Nothing to configure.<br>[Chrome](https://chromewebstore.google.com/detail/not-for-you/pakdneaipkfgaahgbafblmdebfoadjca) · [Firefox](https://addons.mozilla.org/firefox/addon/notforyou/) · [Source](https://github.com/preziotte/not-for-you)
 
 ## Media
 
