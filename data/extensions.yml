@@ -166,6 +166,16 @@
         firefox: https://addons.mozilla.org/firefox/addon/redirector-url/
         safari: https://apps.apple.com/app/url-redirector/id6743197230
         edge: https://microsoftedge.microsoft.com/addons/detail/redirector/jhdjcofnjfeljeekjklhgfmfocfgibmm
+    - name: Highlighter
+      homepage: https://alapha888.github.io/web-highlighter-site/
+      description: >-
+        Highlighter is a free, closed-source browser extension for Microsoft Edge
+        that also works in Chrome, offering multicolor web page highlights and
+        inline notes stored locally in the browser, with no server, analytics, or
+        tracking. It imports Weava CSV exports and exports highlights to JSON,
+        CSV, or Markdown.
+      stores:
+        edge: https://microsoftedge.microsoft.com/addons/detail/highlighter/ooocjgnapglfljdgojdoacjdedpaplhe
 
 - category: Media
   extensions:
